@@ -8,7 +8,7 @@ import "firebase/compat/auth";
 import "firebase/compat/firestore";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useCollectionData } from "react-firebase-hooks/firestore";
-import 'firebase/compat/analytics';
+// import 'firebase/compat/analytics';
 
 firebase.initializeApp({
   apiKey: "AIzaSyCRby-ENFVTIAzQrsHKO4XzLQn9e2X-I6g",
@@ -22,7 +22,7 @@ firebase.initializeApp({
 
 const auth = firebase.auth();
 const firestore = firebase.firestore();
-const analytics = firebase.analytics();
+// const analytics = firebase.analytics();
 
 
 function App() {
