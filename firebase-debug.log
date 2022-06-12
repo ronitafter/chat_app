@@ -1,0 +1,13 @@
+[debug] [2022-06-12T15:08:51.285Z] ----------------------------------------------------------------------
+[debug] [2022-06-12T15:08:51.287Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ronit\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js hosting:channel:deploy cool-chat
+[debug] [2022-06-12T15:08:51.288Z] CLI Version:   11.0.1
+[debug] [2022-06-12T15:08:51.288Z] Platform:      win32
+[debug] [2022-06-12T15:08:51.288Z] Node Version:  v16.15.1
+[debug] [2022-06-12T15:08:51.289Z] Time:          Sun Jun 12 2022 18:08:51 GMT+0300 (Israel Daylight Time)
+[debug] [2022-06-12T15:08:51.289Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-12T15:08:51.373Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-12T15:08:51.374Z] > authorizing via signed-in user (ronitafter@gmail.com)
+[debug] [2022-06-12T15:08:51.374Z] [iam] checking project chat-app-c163e for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-06-12T15:08:51.379Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/chat-app-c163e:testIamPermissions [none]
+[debug] [2022-06-12T15:08:51.380Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chat-app-c163e:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
